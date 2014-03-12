@@ -29,6 +29,7 @@ public class ac01 extends Activity implements OnTouchListener{
 		tv.setTextColor(Color.GREEN);;
 		
 		l.addView(tv);
+		l.setOnTouchListener(this);
 		
 		setContentView(l);
 	}
